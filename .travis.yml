@@ -1,0 +1,9 @@
+#select language
+language: python
+ 
+#Python edition
+python:
+    - "3.5"
+
+script:
+    - pytest
